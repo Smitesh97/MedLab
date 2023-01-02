@@ -1,0 +1,27 @@
+.makebox{
+    margin-left: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    /* border: 1px solid skyblue; */
+    padding-top: 10px;
+    border-radius: 20px 20px 0 0;
+    background-color:rgb(235, 243, 248) ;
+}
+
+.makebox2{
+    margin-left: 300px;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+.nameproperty{
+    font-size: 12px;
+    margin-left: 150px;
+    color: rgb(52, 168, 168);
+    padding: 0;
+    text-align: start;
+}

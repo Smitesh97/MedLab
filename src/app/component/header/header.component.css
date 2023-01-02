@@ -1,0 +1,17 @@
+div.sticky {
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    background-color: white;
+    z-index: 2;
+}
+
+b:hover{
+    background-color:royalblue;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

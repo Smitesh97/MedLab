@@ -2,7 +2,29 @@
     background: linear-gradient(104deg,#4285f4 4%,#db4437 35%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 30px;
 }
 
+.gradient{
+    background: linear-gradient(104deg,#4285f4 4%,#db4437 35%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-main{
+    background: linear-gradient(104deg,#4285f4 4%,#db4437 35%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    /* line-height: 20px; */
+}
+
+#consultbox:hover{
+    box-shadow: black;
+}
+
+#fixing{
+    position: relative;
+    
+}

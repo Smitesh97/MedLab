@@ -1,0 +1,36 @@
+<div class="container-fluid bg-primary bg-opacity-75 p-2 ">
+    <div class="row">
+        <h5 class="text-white"><i class="bi bi-arrow-left mx-5 text-white"></i>Top Deals</h5>
+    </div>
+</div>
+<div class="container-fluid bg-primary bg-opacity-25 p-3 mb-5 ">
+    <div class="row">
+        <p class="" style="margin-left: 230px;">Showing Medicine Availability and Price in<i class="bi bi-geo-alt text-primary ms-2"></i><a>Bengaluru,560029</a>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+            <a href="">
+                <img [src]="dealsinformation?.productImageSlug[0]" alt="" width="300" height="250">
+            </a>
+        </div>
+        <div class="col-md-6 row">
+            <h3 class="mt-5">{{dealsinformation?.name}}</h3>
+            <h3 class="mt-3">₹ {{dealsinformation?.actualPrice}}/-*</h3>
+            <p>{{dealsinformation?.description}}</p>
+            <p>{{dealsinformation?.brand}}</p>
+            <p>{{dealsinformation?.medicineCategory}}</p>
+            <div class="col-md-5">
+                <button class="btn btn-secondary p-1 px-4 rounded ms-2"><h4>Added</h4></button>
+            </div>
+            <div class="col-md-7">
+                <button class="btn btn-outline-primary p-1 px-5 rounded" style="margin-left:-85px;"><h4>Continue Shopping</h4></button>
+            </div>
+        </div>
+    </div>
+</div>
